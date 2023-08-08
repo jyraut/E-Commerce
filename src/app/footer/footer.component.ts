@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TermsConditionComponent } from '../terms-condition/terms-condition.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: Router) { }
 
   ngOnInit(): void {
   }
+policies(){
+  this.route.navigate(['privacy'])
+}
 
+terms_Condition(){
+ this.route.navigate(['terms-condition'])
+}
 }

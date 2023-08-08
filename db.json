@@ -41,6 +41,18 @@
       "password": "abc@123",
       "email": "bhasker@test.com",
       "id": 8
+    },
+    {
+      "name": "Jyoti Raut",
+      "email": "jyotiraut9667@gmail.com",
+      "password": "Jyoti@9667",
+      "id": 9
+    },
+    {
+      "id": 1,
+      "name": "Jyoti Raut",
+      "email": "jyotiraut9667@gmail.com",
+      "password": "Jyoti@9667"
     }
   ],
   "products": [
@@ -110,9 +122,9 @@
   ],
   "users": [
     {
-      "name": "anil",
-      "email": "anil@user.com",
-      "password": "abc123",
+      "name": "Jyoti Raut",
+      "email": "jyotiraut123@gmail.com",
+      "password": "Jyo@9667",
       "id": 1
     },
     {
@@ -132,6 +144,12 @@
       "email": "tony@user.com",
       "password": "abc123",
       "id": 4
+    },
+    {
+      "name": "Jyoti",
+      "email": "jyotiraut@gmail.com",
+      "password": "Jyo@123",
+      "id": 5
     }
   ],
   "cart": [
@@ -158,11 +176,23 @@
       "productId": 5,
       "userId": 3,
       "id": 8
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 1,
+      "id": 9
     }
   ],
   "orders": [
     {
-      "email": "anil@user.com",
+      "email": "jyoti@user.com",
       "address": "noida sector x",
       "contact": "9999",
       "totalPrice": 104750,
@@ -170,7 +200,7 @@
       "id": 1
     },
     {
-      "email": "anil@test.com",
+      "email": "charlie@test.com",
       "address": "noida sector x",
       "contact": "8877",
       "totalPrice": 6100,
